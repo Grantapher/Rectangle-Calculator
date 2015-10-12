@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rectangle Calculator</string>
+    <string name="width_hint">Enter width</string>
+    <string name="height_hint">Enter height</string>
+    <string name="calculate_text">CALCULATE</string>
+    <string name="area_label_preNum">"Area is "</string>
+    <string name="perimeter_label_preNum">"Perimeter is "</string>
+    <string name="fail_message">Ensure that Width/Height is entered correctly!</string>
+</resources>
