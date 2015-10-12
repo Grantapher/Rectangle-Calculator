@@ -3,7 +3,8 @@
     <string name="width_hint">Enter width</string>
     <string name="height_hint">Enter height</string>
     <string name="calculate_text">CALCULATE</string>
-    <string name="area_label_preNum">"Area is "</string>
-    <string name="perimeter_label_preNum">"Perimeter is "</string>
+    <string name="area_label_preNum">"Area is %s"</string>
+    <string name="perimeter_label_preNum">"Perimeter is %s"</string>
     <string name="fail_message">Ensure that Width/Height is entered correctly!</string>
+    <string name="author_text">Property of Grant Toepfer</string>
 </resources>

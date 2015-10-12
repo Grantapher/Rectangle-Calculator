@@ -2,7 +2,6 @@ package com.example.grant.rectanglecalculator;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -46,10 +45,10 @@ public class RectangleCalculator extends AppCompatActivity {
             float area = width * height;
             float perimeter = 2 * width + 2 * height;
 
-            areaText.setText(resources.getText(R.string.area_label_preNum) + FORMATTER.format(area));
-            perimeterText.setText(resources.getText(R.string.perimeter_label_preNum) + FORMATTER.format(perimeter));
+            areaText.setText(String.format(resources.getString(R.string.area_label_preNum), FORMATTER.format(area)));
+            perimeterText.setText(String.format(resources.getString(R.string.perimeter_label_preNum), FORMATTER.format(perimeter)));
         } catch (Exception e) {
-            Toast.makeText(this, resources.getText(R.string.fail_message), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, resources.getString(R.string.fail_message), Toast.LENGTH_SHORT).show();
         }
     }
 
