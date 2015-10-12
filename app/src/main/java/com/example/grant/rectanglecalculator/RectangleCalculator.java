@@ -49,7 +49,7 @@ public class RectangleCalculator extends AppCompatActivity {
             areaText.setText(resources.getText(R.string.area_label_preNum) + FORMATTER.format(area));
             perimeterText.setText(resources.getText(R.string.perimeter_label_preNum) + FORMATTER.format(perimeter));
         } catch (Exception e) {
-            Snackbar.make(getWindow().getDecorView().getRootView(), resources.getText(R.string.fail_message), Snackbar.LENGTH_SHORT).show();
+            Toast.makeText(this, resources.getText(R.string.fail_message), Toast.LENGTH_SHORT).show();
         }
     }
 
